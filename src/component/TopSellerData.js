@@ -1,0 +1,37 @@
+export const TopSellerData = [
+    {
+        img:'Reactangle1.svg',
+        name:"@dicar",
+        amt:"$232,102"
+    },
+    {
+        img:'Reactangle2.svg',
+        name:"@astroo2",
+        amt:"$172,023"
+    },
+    {
+        img:'Reactangle3.svg',
+        name:"@micle",
+        amt:"$92,002"
+    },
+    {
+        img:'Reactangle3.svg',
+        name:"@11 eror D.",
+        amt:"$88,024"
+    },
+    {
+        img:'Reactangle4.svg',
+        name:"@astroo2",
+        amt:"$172,023"
+    },
+    {
+        img:'Reactangle1.svg',
+        name:"@dicar",
+        amt:"$232,102"
+    },
+    {
+        img:'Reactangle2.svg',
+        name:"@dicar",
+        amt:"$232,102"
+    }
+]

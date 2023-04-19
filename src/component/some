@@ -1,0 +1,92 @@
+ <div className="w-[90vh] p-2">
+          <img src="sliderImage1.svg" alt="" />
+        {/* <div className="w-[40%] p-2 bg-black/70 text-white  -translate-y-24 rounded-lg border-[1.5px] border-cyan-300 translate-x-3">
+          <div className="flex justify-between ">
+            <div>
+              <div className="flex items-center">
+                <div>
+                  <CgSandClock/>
+                </div>
+                <div>Countdown</div>
+              </div>
+              <div className="text-xs whitespace-nowrap">time remaining</div>
+            </div>
+            <div>
+              <div className="whitespace-nowrap">17.52 ETH</div>
+              <div className="text-xs whitespace-nowrap">Highest Bid</div>
+            </div>
+          </div>
+          <div className="bg-slate-500 rounded-xl border-2 border-cyan-300 mt-2 ">
+            <button className="text-sm flex mx-auto"> Place a bid</button>
+          </div>
+        </div> */}
+      </div>
+        {/* </div>
+      <div className="p-2">
+        <img src="sliderImage1.svg" alt="" />
+        <div className="w-[40%] p-2 bg-black/70 text-white -translate-y-24 rounded-lg border-[1.5px] border-cyan-300 translate-x-3">
+          <div className="flex justify-between ">
+            <div>
+              <div className="flex items-center">
+              <div>
+                  <CgSandClock/>
+                </div>
+                <div>Countdown</div>
+              </div>
+              <div className="text-xs whitespace-nowrap">time remaining</div>
+            </div>
+            <div>
+              <div className="whitespace-nowrap">17.52 ETH</div>
+              <div className="text-xs whitespace-nowrap">Highest Bid</div>
+              </div>
+              </div>
+              <div className="bg-slate-500 rounded-xl border-2 border-cyan-300 mt-2 ">
+              <button className="text-sm flex mx-auto"> Place a bid</button>
+              </div>
+        </div>
+      </div>
+      <div className="p-2">
+        <img src="sliderImage1.svg" alt="" />
+        <div className="w-[40%] p-2 bg-black/70 text-white -translate-y-24 rounded-lg border-[1.5px] border-cyan-300 translate-x-3">
+        <div className="flex justify-between ">
+            <div>
+            <div className="flex items-center">
+            <div>
+            <CgSandClock/>
+            </div>
+                <div>Countdown</div>
+              </div>
+              <div className="text-xs whitespace-nowrap">time remaining</div>
+            </div>
+            <div>
+              <div className="whitespace-nowrap">17.52 ETH</div>
+              <div className="text-xs whitespace-nowrap">Highest Bid</div>
+            </div>
+          </div>
+          <div className="bg-slate-500 rounded-xl border-2 border-cyan-300 mt-2 ">
+            <button className="text-sm flex mx-auto"> Place a bid</button>
+            </div>
+        </div>
+      </div>
+      <div className="p-2">
+        <img src="sliderImage1.svg" alt="" />
+        <div className="w-[40%] p-2 bg-black/70 text-white -translate-y-24 rounded-lg border-[1.5px] border-cyan-300 translate-x-3">
+          <div className="flex justify-between ">
+            <div>
+              <div className="flex items-center">
+                <div>
+                  <CgSandClock/>
+                </div>
+                <div>Countdown</div>
+              </div>
+              <div className="text-xs whitespace-nowrap">time remaining</div>
+            </div>
+            <div>
+              <div className="whitespace-nowrap">17.52 ETH</div>
+              <div className="text-xs whitespace-nowrap">Highest Bid</div>
+              </div>
+              </div>
+          <div className="bg-slate-500 rounded-xl border-2 border-cyan-300 mt-2 ">
+            <button className="text-sm flex mx-auto"> Place a bid</button>
+          </div>
+          </div> */}
