@@ -5,11 +5,11 @@ const RecentActivity = () => {
     <>
         <div className='space-y-4'>
             <div className='flex justify-between mb-5'>
-                <div>
+                <div className='text-2xl'>
                     <h1>Recent Activity</h1>
                 </div>
                 <div>
-                    <h1 className='flex items-center space-x-4'>See All<BsArrowRight/></h1>
+                    <h1 className='flex items-center space-x-7'>See All<BsArrowRight/></h1>
                 </div>
             </div>
 

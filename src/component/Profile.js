@@ -10,54 +10,53 @@ const Profile = () => {
 
     const [val,setVal] = useState(0)
     const handleChange = (e) => {
-        
         setVal(e.target.value)
     }
  
   return (
     <>
-      <div className={`flex flex-col w-[400px] gap-y-5 p-5`}>
+      <div className={`hidden lg:flex flex-col w-[350px] gap-y-5 p-5 border-2 border-cyan-500 rounded-xl`}>
         <div className="mx-auto">
-          <div className="mx-auto text-4xl font-bold">My Profile</div>
+          <div className="mx-auto text-4xl font-bold my-10">My Profile</div>
 
           <div className="">
             <img className="mx-auto" alt="" src="paplu.png" />
           </div>
-          <div className="text-center">Mihir</div>
+          <div className="text-center my-5 text-2xl">Mihir</div>
         </div>
         <div className="grid grid-cols-4 gap-5 justify-between">
           <div>
-            <div className="border-2 rounded-xl text-center">120</div>
+            <div className="border-2 rounded-xl text-center p-2">120</div>
             <div className="text-center mt-2">assets</div>
           </div>
           <div>
-            <div className="border-2 rounded-xl text-center">10K</div>
+            <div className="border-2 rounded-xl text-center p-2">10K</div>
             <div className="text-center mt-2">Followers</div>
           </div>
           <div>
-            <div className="border-2 rounded-xl text-center">70K</div>
+            <div className="border-2 rounded-xl text-center p-2">70K</div>
             <div className="text-center mt-2">Likes</div>
           </div>
           <div>
-            <div className="border-2 rounded-xl text-center ">60</div>
+            <div className="border-2 rounded-xl text-center p-2 ">60</div>
             <div className="text-center mt-2">Bidding</div>
           </div>
         </div>
         <div>
-          <div className="mb-3 font-bold text-2xl">Your Balance</div>
-          <div className="border rounded-2xl p-4 flex justify-between">
+          <div className="mb-3 text-2xl">Your Balance</div>
+          <div className="border rounded-2xl p-2 flex justify-between">
             <div className="flex items-center gap-3">
               <div>
-                <img className="w-12" src="Icon - Ethereum.svg" />
+                <img className="w-10" alt="" src="Icon - Ethereum.svg" />
               </div>
-              <div className="whitespace-nowrap text-2xl font-bold">4,666 ETH</div>
+              <div className="whitespace-nowrap text-xl font-bold">4,666 ETH</div>
             </div>
             <button className="flex items-center text-lg "> Add <BsChevronRight /> </button>
           </div>
         </div>
         <div className="flex flex-col space-y-4 ">
             <div className="flex justify-between">
-                <div>Revenue</div>
+                <div className="text-2xl">Revenue</div>
                 <div className="text-black bg-[#08083B]">
                     <select onChange={(e)=>handleChange(e)} className="text-white bg-[#08083B]"> 
                         <option value={0} label="January"></option>

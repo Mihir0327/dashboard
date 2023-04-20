@@ -157,3 +157,21 @@
 
 
 
+  
+  .slider-progress {
+    height: 5px;
+    background-color: cyan;
+    transition: 0.5s ease-out;
+    border-radius: 5px;
+  }
+  
+    @media (max-width:500px){
+        .slick-prev{
+            position: absolute;
+            z-index: 1000;
+            margin-left: 5%;
+        }
+    }
+
+    
+

@@ -1,7 +1,6 @@
 
 import "./App.css";
 import NavBar from "./component/NavBar";
-import PhotoDiv from "./component/PhotoDiv";
 import Profile from "./component/Profile";
 
 // eslint-disable-next-line

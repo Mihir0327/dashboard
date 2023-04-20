@@ -4,21 +4,55 @@ import Slider from "react-slick";
 export const HotBids = () => {
   var settings = {
     dots: false,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay:true,
-    autoplaySpeed:1000,
-    lazyLoad:"progressive"
+    autoplay: true,
+    autoplaySpeed: 2000,
+    lazyLoad: "progressive",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          arrows:false,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          slidesToScroll: 1,
+          arrows:false,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          arrows:false
+        },
+      },
+    ],
   };
 
   return (
     <>
-    <div className="mt-10">Hot Bids</div>
+      <div className="mt-10">Hot Bids</div>
       <div className="flex justify-evenly ">
-        <Slider className="w-[66vw]" {...settings}>
+        <Slider className="w-[80vw] md:w-[90vw] lg:w-[66vw]" {...settings}>
           {[1, 2, 3, 4, 5, 6].map(() => {
             return (
-              <div className="mx-5 p-5 text-white ">
+              <div className=" p-5 text-white ">
                 <div className="someid flex items-center justify-between">
                   <div className=" w-1/2">02:32:07</div>
                   <div className="flex justify-end items-center w-1/2">
@@ -27,16 +61,38 @@ export const HotBids = () => {
                   </div>
                 </div>
                 <div>
-                  <img className="w-full" src="./hotBidsImages/hb1.png" alt=""/>
+                  <img
+                    className="w-full"
+                    src="./hotBidsImages/hb1.png"
+                    alt=""
+                  />
                 </div>
                 <div className="mt-2">
                   <div>Stretch Of Time</div>
                   <div className="flex relative">
                     <div className="text-sm">0.045 ETH</div>
                     <div className="flex">
-                        <div><img src="Person1.png" alt="" className="w-5 absolute z-30 right-6"/></div>
-                        <div><img src="Person2.png" alt="" className="w-5 absolute z-20 right-3"/></div>
-                        <div><img src="Person3.png" alt="" className="w-5 absolute z-10 right-0"/></div>
+                      <div>
+                        <img
+                          src="Person1.png"
+                          alt=""
+                          className="w-5 absolute z-30 right-6"
+                        />
+                      </div>
+                      <div>
+                        <img
+                          src="Person2.png"
+                          alt=""
+                          className="w-5 absolute z-20 right-3"
+                        />
+                      </div>
+                      <div>
+                        <img
+                          src="Person3.png"
+                          alt=""
+                          className="w-5 absolute z-10 right-0"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>

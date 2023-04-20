@@ -6,26 +6,53 @@ const PopularNFT = () => {
   var settings = {
     dots: false,
     arrows:false,
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 1000
+          }
+        }
+      ],
   };
   return (
-    <div className="w-[66vw] mt-5">
-      <div className="text-4xl my-5">Popular NFT's Live Auction</div>
+    <div className="w-[90vw] lg:w-[66vw] mt-5">
+      <div className="text-md lg:text-4xl my-5">Popular NFT's Live Auction</div>
       <Slider {...settings}>
         {[1, 1, 1, 1, 1, 1].map(() => {
           return (
             <>
-              <div className="relative p-2">
+              <div className="relative p-2 lg:h-fit">
                 <div className="overflow-hidden rounded-3xl">
                   <img
-                    className="hover:scale-110 transition delay-200"
+                    className=" hover:scale-110 transition delay-200"
                     src="sliderImage1.svg"
                     alt=""
                   />
                 </div>
               </div>
-              <div className="absolute w-[3%] top-[50%]">
+              <div className="lg:absolute mt-3 lg:mt-0 w-[70%] lg:w-[2%] lg:top-[55%] z-30">
                 <div className="px-5 py-3 bg-black/70 text-white rounded-lg border-[1.5px] border-cyan-300 translate-x-10 ">
                   <div className="flex justify-between">
                     <div>
