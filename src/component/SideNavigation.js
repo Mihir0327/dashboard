@@ -4,14 +4,14 @@ import {BiLogOut} from "react-icons/bi"
 export default function Sidenavigation() {
   return (
     <>
-    <div className='hidden border rounded-2xl w-fit p-5 lg:flex flex-col gap-6 divide-y h-[92vh]'>
+    <div className='hidden border rounded-2xl w-fit p-5 lg:flex flex-col lg:gap-5 divide-y h-[96vh]'>
         <div>
             <div className="flex-col items-center mb-5">
                 <img src="./sideNavigationImages/vector.svg" alt="" />
                 <img src="./sideNavigationImages/vector 2.svg" alt="" />
             </div>
 
-            <div className="flex flex-col items-center gap-10">
+            <div className="flex flex-col items-center lg:gap-10 ">
                 <img src="./sideNavigationImages/vector3.svg" alt="" />
                 <img src="./sideNavigationImages/cart.svg" alt="" />
                 <img src="./sideNavigationImages/activity.svg" alt="" />

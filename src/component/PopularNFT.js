@@ -6,7 +6,7 @@ const PopularNFT = () => {
   var settings = {
     dots: false,
     arrows:false,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
         {
@@ -21,7 +21,7 @@ const PopularNFT = () => {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1
           }
         },
@@ -38,7 +38,7 @@ const PopularNFT = () => {
   };
   return (
     <div className="w-[90vw] lg:w-[66vw] mt-5">
-      <div className="text-md lg:text-4xl my-5">Popular NFT's Live Auction</div>
+      <div className="text-md lg:text-2xl my-3">Popular NFT's Live Auction</div>
       <Slider {...settings}>
         {[1, 1, 1, 1, 1, 1].map(() => {
           return (
@@ -52,7 +52,7 @@ const PopularNFT = () => {
                   />
                 </div>
               </div>
-              <div className="lg:absolute mt-3 lg:mt-0 w-[70%] lg:w-[2%] lg:top-[55%] z-30">
+              <div className="lg:absolute mt-3 lg:mt-0 w-[70%] lg:w-[3%] lg:top-[55%] z-30">
                 <div className="px-5 py-3 bg-black/70 text-white rounded-lg border-[1.5px] border-cyan-300 translate-x-10 ">
                   <div className="flex justify-between">
                     <div>

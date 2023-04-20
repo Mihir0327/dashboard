@@ -3,9 +3,9 @@ import {BsArrowRight} from "react-icons/bs"
 const RecentActivity = () => {
   return (
     <>
-        <div className='space-y-4'>
-            <div className='flex justify-between mb-5'>
-                <div className='text-2xl'>
+        <div className='space-y-2'>
+            <div className='flex justify-between '>
+                <div className='text-xl'>
                     <h1>Recent Activity</h1>
                 </div>
                 <div>

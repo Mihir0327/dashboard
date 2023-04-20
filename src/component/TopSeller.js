@@ -75,6 +75,8 @@ import "slick-carousel/slick/slick-theme.css";
 import { MdVerified } from "react-icons/md";
 
 const TopSeller = () => {
+
+
   const sliderRef = useRef(null);
 
   const handleSlideChange = (oldIndex, newIndex) => {
@@ -134,8 +136,8 @@ const TopSeller = () => {
   };
 
   return (
-    <div className="w-[85vw] lg:w-[66vw] mt-5">
-      <div className="text-xl my-5">Top Seller</div>
+    <div className="w-[85vw] lg:w-[66vw] mt-3">
+      <div className="text-xl my-3">Top Seller</div>
       <Slider {...settings} ref={sliderRef}>
         {TopSellerData.map((data) => {
           return (

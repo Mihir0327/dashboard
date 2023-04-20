@@ -12,7 +12,7 @@ import { VictoryChart, VictoryBar, VictoryAxis } from "victory";
 const BarChart = ({data}) => {
     console.log(data)
   return (
-    <div className="bg-[blue]/.90  border border-blue-900"> 
+    <div className="bg-[blue]/.90  border border-blue-900 h-[10vw]"> 
     <VictoryChart>
       <VictoryAxis
         dependentAxis
